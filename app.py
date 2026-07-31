@@ -155,7 +155,7 @@ if all(ALL_API) and user_query:
   
   with tab3:
     st.header("Create PPT")
-    if st.spinner("Click to generate: ", key = "generate_ppt_button"):
+    if st.button("Click to generate: ", key = "generate_ppt_button"):
       with st.spinner("Running Agent.."):
         final_prompt = prompt_generator(model,user_query)
     

@@ -76,6 +76,7 @@ def generate_image(img_prompt):
   content = r.get(url).content
   with open(f"Image.jpeg",'wb') as f:
     f.write(content)
+ 
   from PIL import Image
   return Image.open("Image.jpeg")
 

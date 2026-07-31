@@ -48,7 +48,7 @@ else:
 #======================FORNTEND======================
 st.title("AI-Agent-Powered PPT Generator")
 
-user_query = st.text_area(Write your PPT topic or  Prompt: ")
+user_query = st.text_area("Write your PPT topic or  Prompt:")
 
 #====================ASSESTS=========================
 # Step 2: Tools creation
